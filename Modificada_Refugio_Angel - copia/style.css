@@ -1,0 +1,164 @@
+
+
+body 1{ 
+    background-color: rgb(246, 243, 238);
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .conte {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .product{
+    width: 350px;
+    height: 250;
+    margin: 0 10px;
+    
+  }
+
+  .header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(assets/imagenes/PEXELS.jpg);
+        
+         background-position: center bottom;
+         background-repeat: no-repeat;
+         background-size: cover;
+         min-height: 70vh;
+         display: flex;
+         align-items: center;
+  }
+
+ 
+ 
+
+  .header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: rgb(250, 250, 10);
+    text-transform: uppercase;
+    margin-bottom: 35px;
+
+  }
+
+  .header-content p {
+    font-size: 16px;
+    color: antiquewhite;
+    padding: 0 250px;
+    margin-bottom: 25px;
+  }
+
+ 
+
+
+
+
+
+#principal {
+    background-image: url(./assets/imagenes/finca.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.titulo{
+   text-align: center;
+} 
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(200, 240, 215);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+nav a:hover{
+    color:white;
+}
+
+
+.campestre{
+    background-image: url(assets/imagenes/campestre.jpeg);
+  
+}
+.fincaa{
+    width: 1500px;
+    height: 450px;
+    margin: 0 5px;
+}
+.plato{
+    width: 350px;
+    height: 250;
+    margin: 0 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    width: 1500px;
+    height: 450px;
+}
+.mul{
+    width: 350px;
+    height: 250;
+    margin: 0 5%;
+}
+
+.multimedia{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:900px) {
+    .container{
+        flex-direction: column;
+align-items: center;
+}
+
+
